@@ -1,5 +1,6 @@
 import { useState } from "react";
-const API = "http://localhost:5000/api/contacts";
+const API = "https://repository-name-mern-contact-app.onrender.com/api/contacts";
+
 
 export default function ContactForm({ fetchContacts, setToast }) {
   const [form, setForm] = useState({ name:"", email:"", phone:"", message:"" });
