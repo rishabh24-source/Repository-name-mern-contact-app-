@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/Header";
+
 import ContactForm from "./components/ContactForm";
 import ContactList from "./components/ContactList";
 import Toast from "./components/Toast";
